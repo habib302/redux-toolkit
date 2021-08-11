@@ -6,7 +6,3 @@ export default configureStore({
         counter: slice.reducer,
     }
 })
-
-export const selectCount =(state)=>{
-    return state.counter.value;
-}
